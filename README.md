@@ -23,3 +23,5 @@ To set up and run this project locally, follow these steps:
     ```bash
     yarn dev
     ```
+ ## Additional
+Make changes in ``src/form-config.ts`` to update form content
