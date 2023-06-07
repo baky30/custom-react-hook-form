@@ -1,0 +1,110 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.config {
+  text-align: center;
+
+  &-input {
+    margin-top: 5px;
+    padding: 12px;
+    border: 1px solid rgba(27, 58, 89, 0.4);
+    border-radius: 6px;
+    font-size: 16px;
+    display: block;
+  }
+
+  &-button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px 0;
+    background: #007AF4;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.form {
+  width: 420px;
+  margin: 0 auto;
+  padding: 52px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(27, 58, 89, 0.25);
+
+
+  &-icon {
+    //border: 1px solid black;
+    font-size: 100px;
+    text-align: center;
+    margin: -115px 0 10px;
+    background: transparent;
+  }
+
+  label {
+    font-size: 14px;
+
+    &.input-error {
+      span {
+        color: red;
+      }
+      input {
+        border-color: red;
+      }
+    }
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 16px;
+    border: 1px solid rgba(27, 58, 89, 0.4);
+    border-radius: 6px;
+    font-size: 16px;
+  }
+
+  .button-wrapper {
+    text-align: center;
+    margin-top: 20px;
+
+    button {
+      padding: 12px 0;
+      width: 184px;
+      background: #007AF4;
+      border-radius: 6px;
+      font-size: 16px;
+      color: white;
+      outline: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+pre {
+  font-size: 18px;
+
+  button {
+    float: right;
+    background: red;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+
+  p {
+    text-align: center;
+  }
+}
